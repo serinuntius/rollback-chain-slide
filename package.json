@@ -5,7 +5,8 @@
   "scripts": {
     "build": "slidev build",
     "dev": "slidev --open",
-    "export": "slidev export"
+    "export": "slidev export",
+    "deploy": "pnpm build && wrangler pages deploy dist"
   },
   "dependencies": {
     "@slidev/cli": "^0.46.1",
